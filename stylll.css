@@ -1,0 +1,275 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background:url("world.jpg") fixed center;
+  background-size: auto auto;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: orange;
+  max-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: purple;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+h1{
+	font-size:50px;
+	text-align:center;
+}
+
+h2{
+	text-align:center;
+	color:blue;
+	font-size:35px;
+}
+
+
+
+.creditCardForm {
+     background-color: orange;
+	 border-style: inset;
+	 width:40%;
+	 margin-left: 30%;
+	 border-radius: 4px;
+	 border-color:purple;
+	 height:1500px;
+	 border-color:purple;
+	
+}
+
+.creditCardForm1 {
+     background-color: orange;
+	 border-style: inset;
+	 width:40%;
+	 margin-bottom: 10%;
+	 margin-left: 30%;
+	 border-radius: 4px;
+	 border-color:purple;
+	 height:auto;
+	 border-color:purple;
+	
+	
+}
+
+
+
+.form-control{
+	height:30px;
+	width:300px;
+	margin-left:30px;
+	border-radius: 4px;
+	border-color:purple;
+	text-align:center;
+	font-size:15px
+	
+}
+
+.form-control1{
+	height:30px;
+	width:100px;
+	margin-left:130px;
+	border-radius: 4px;
+	border-color:purple;
+	text-align:center;
+	font-size:15px;
+}
+
+.form-control2{
+	height:30px;
+	width:90%;
+	margin-left:30px;
+	border-radius: 4px;
+	border-color:purple;
+	text-align:center;
+	font-size:15px;
+	
+}
+
+.control{
+	height:30px;
+	width:90%;
+	margin-left:30px;
+	border-radius: 4px;
+	border-color:purple;
+	text-align:center;
+	font-size:15px;
+	
+}
+
+.control1{
+	height:30px;
+	width:150px;
+	margin-left:30px;
+	border-radius: 4px;
+	border-color:purple;
+	text-align:center;
+	font-size:15px;
+	
+}
+
+.control2{
+	height:30px;
+	width:150px;
+	margin-left:53px;
+	border-radius: 4px;
+	border-color:purple;
+	text-align:center;
+	font-size:15px;
+	
+}
+
+
+.center{
+	margin-left:176px;
+}
+
+#expiration-date{
+	border:  solid;
+	border-color:purple;
+	height:30px;
+	width:120px;
+	margin-left:120px;
+	border-radius: 4px;
+	font-size:15px
+	
+}
+
+#expiration-date1{
+	border:  solid;
+	border-color:purple;
+	height:34px;
+	width:120px;
+	margin-left:53px;
+	border-radius: 4px;
+	font-size:15px
+	
+}
+
+
+.btn-default{
+	margin-left:10%;
+	color: white;
+	background-color: purple;
+	height:50px;
+	width: 80% 
+}
+
+
+
+
+
+#id{
+	font-size:20px;
+}
+
+h3{
+	display: inline-block;
+	margin-left:80px;
+	font-size:20px;
+}
+
+.b {
+  visibility: hidden;
+}
+.a{
+	text-align:center;
+	margin-left:220px;
+}
+
+.c{
+	text-align:center;
+	margin-left:150px;
+}
+
+.d{
+	text-align:center;
+	margin-left:130px;
+}
+
+
+.transparent {
+    opacity: 0.2;
+}
+
+@media(max-width: 650px) {
+    .creditCardForm .owner,
+    .creditCardForm .CVV,
+    .creditCardForm #expiration-date,
+    .creditCardForm #credit_cards {
+        width: 100%;
+    }
+    .creditCardForm #credit_cards {
+        text-align: left;
+    }
+}
+
+
+
+
+
+
+.footer {
+   bottom:0;
+   left:0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   position: fixed;
+}

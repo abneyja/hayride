@@ -1,0 +1,192 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background:url("world.jpg") fixed center;
+  background-size: auto auto;
+}
+
+
+
+h1{
+	text-align:center;
+}
+
+#submit:hover {
+  background-color: purple;
+}
+
+#lol{
+	text-align:center;
+}
+a{
+	color: blue;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active{
+	color:#C311A2;
+	
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: orange;
+  max-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: purple;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+.b {
+  visibility: hidden;
+}
+
+.footer {
+   bottom:0;
+   left:0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   position: fixed;
+}
+
+.active {
+  background-color: orange;
+}
+
+h2{
+	text-align:center;
+	color:blue;
+	font-size:35px;
+}
+
+.search{
+	 background-color: orange;
+	 border-style: inset;
+	 width:48%;
+	 margin-left: 26%;
+	 border-radius: 4px;
+	 text-align:center;
+	 border-color:purple;
+	 height:570px;
+	
+}
+
+.radio-inline{
+	 display: inline-block;
+	 font-size:20px;
+}
+
+#locations, #dates {
+	width:40%;
+	height:40px;
+	border-radius: 8px;
+	text-align:center;
+	font-size:20px;
+	border-color:purple;
+}
+#loco{
+	font-size:25px;
+	color:blue;
+	
+}
+
+h1{
+	font-size:50px;
+}
+
+.button {
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: blue;
+}
+
+h3{  font-size:20px;
+	 display: inline-block;
+}
+
+#left{
+	margin-right:10px;
+}
+
+.form-control2{
+	height:30px;
+	width:90%;
+	margin-left:30px;
+	border-radius: 4px;
+	border-color:purple;
+	text-align:center;
+	font-size:15px;
+	
+}
